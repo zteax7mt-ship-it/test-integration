@@ -1,0 +1,1113 @@
+{
+    "pageProps": {
+        "post": {
+            "title": "Everything you need to know about software localization",
+            "date": "2022-08-31",
+            "meta": {
+                "title": "Everything you need to know about software localization",
+                "description": "Software localization is a complex process of translation and adaptation of the product to a completely new market.",
+                "image": {
+                    "path": "../images/software-localization-og.png",
+                    "width": 1200,
+                    "height": 630,
+                    "type": "image/png",
+                    "alt": "Software localization"
+                }
+            },
+            "slug": "software-localization",
+            "categories": [
+                "localization"
+            ],
+            "author": "bojana.vojnovic",
+            "content": {
+                "compiledSource": "/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    h1: \"h1\",\n    p: \"p\",\n    img: \"img\",\n    a: \"a\",\n    h2: \"h2\",\n    h3: \"h3\",\n    em: \"em\",\n    strong: \"strong\"\n  }, _provideComponents(), props.components);\n  return _jsxs(_Fragment, {\n    children: [_jsx(_components.h1, {\n      children: \"Everything you need to know about software localization\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.img, {\n        src: \"../images/software-localization-cover.png\",\n        alt: \"Software localization\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"The software will work fine for everyone when the user interface is in English. This is one of the biggest misconceptions we've normalized with globalization.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Anglo-centrism became a golden standard in the tech industry during its development. But we're witnessing the rise of localization.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"The Tech industry is developing at high speed in markets all over the world. The digitalization of all industries in almost every country is following, with more than \", _jsx(_components.a, {\n        href: \"https://resources.foundryco.com/download/digital-business-executive-summary\",\n        children: \"80% of businesses\"\n      }), \" having running strategies to become digital-first businesses.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"However, understanding the user interface in a foreign language is easy for everyone.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"A language is not the only thing that needs to be adapted in software- otherwise, you'd need a simple software translation.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Why is software localization important?\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Not everyone masters English. Not everyone is fond of \", _jsx(_components.a, {\n        href: \"https://www.reddit.com/r/europe/comments/25al44/actually_why_does_france_refuse_to_speak_english/?sort=old\",\n        children: \"using this language\"\n      }), \" either.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Let's think about the following example.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Your target customers are accountants in a country where English is not a native or working language. They're working with domestic companies only.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"On this occasion, it's highly probable accountants won't have a high level of English language.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"If you want your CRM for accountants to get adopted, you'll need to have a user interface in the accountants' native language.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.img, {\n        src: \"../images/product-adoption-depends-on-users.png\",\n        alt: \"Product adoption depends on users\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"An additional obstacle to software adoption in nontech niches is low \", _jsx(_components.a, {\n        href: \"https://www.rasmussen.edu/student-experience/college-life/what-is-digital-literacy/\",\n        children: \"digital literacy\"\n      }), \" among workers.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"In the EU, just \", _jsx(_components.a, {\n        href: \"https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20220330-1\",\n        children: \"54% of the population that's fit to work\"\n      }), \" have basic digital skills, while in LATAM countries, \", _jsx(_components.a, {\n        href: \"https://www.oecd-ilibrary.org/sites/e7a00fd6-en/index.html?itemId=/content/component/e7a00fd6-en\",\n        children: \"more than 60%\"\n      }), \" of the population is without it.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Considering all this, it's not shocking to hear that \", _jsx(_components.a, {\n        href: \"https://csa-research.com/Login?returnurl=%2fMore%2fMedia%2fPress-Releases%2fArticleID%2f31%2fSurvey-of-3-000-Online-Shoppers-Across-10-Countries-Finds-that-60-Rarely-or-Never-Buy-from-English-only-Websites%3futm_source%3dweglot%26utm_medium%3dblog%26utm_campaign%3dmultilingual-website-growth-data\",\n        children: \"70% of buyers\"\n      }), \" prefer to buy a product or service that offers all information about it in their native language.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"So when you're entering a new market, consider cultural preferences and context.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Some may be fine with English. Yet, most will need not only the user interface in their mother tongue but also documentation and training sessions.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"What exactly is a software localization\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Software localization is a process of adaptation of the software to the new local market. This localization process takes into consideration linguistics, cultural and market context.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"If needed, sometimes certain features can be created for a specific market.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"The software localization process includes:\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"☞ translation of all text inside the user interface and\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"☞ adaptation of design if needed.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Software localization examples\"\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"Netflix\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.img, {\n        src: \"../images/localization-example-netflix.png\",\n        alt: \"Netflix localization example\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"One of the best-known examples of successful software localization is Netflix.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"This streaming platform is available in more than 27 countries. In every country they entered, they went through a localization process.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"They adapt dubs, subtitles offering, and a user interface for maximized user experience. However, this is what most streaming services offer in every country.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Creating local content actually differentiates Netflix from other streaming services in every local market.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"In Netflix's case, it means creating series and movies in every entered country with local resources within the local culture.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Yes, they make the content popular in the country of origin, but they also gradually place it in other country markets. This means they have more interesting and mixed content than any other streaming platform.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"This localization strategy brought them steady \", _jsx(_components.a, {\n        href: \"https://www.fool.com/investing/2020/01/16/netflix-has-a-clear-path-to-double-subscribers-by.aspx\",\n        children: \"growth of 33%\"\n      }), \" per year.\"]\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"Spotify\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.img, {\n        src: \"../images/localization-example-spotify.png\",\n        alt: \"Spotify localization example\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Another streaming platform that conquered the global market with a software localization strategy is Spotify.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Localization of content, in their case music, thematic playlists, and software translation, is a huge stack in Spotify's global success.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"They define it as \\\"\", _jsx(_components.a, {\n        href: \"https://spotify.design/article/designing-for-belonging-why-image-localization-matters\",\n        children: \"Designing for Belonging\"\n      }), \"\\\". As their design manager, Nora Ahlenius, says \", _jsx(_components.em, {\n        children: \"that by localizing images, we can help people feel that they belong and that Spotify is a better choice\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"The idea is the following: when a user sees an image and name of the playlist in its own language and local cultural context, it'll feel seen and validated.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"In practice, it means there would be a \", _jsx(_components.em, {\n        children: \"Happy Hits\"\n      }), \" playlist everywhere, in every country. However, it'll contain a different choice of songs and visuals to represent that feeling in every country.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"The benefit for Spotify and Netflix comes from local users finding familiar content on their platforms, while at the same time, global users are finding new content they would have never found without them.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Myself included. For example, I would never casually stumble upon series and movies from Peru and Chile on any streaming service in Balkan.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"These examples show that software localization is far more than a basic translation of the content inside the user interface.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"It needs to feel like it is created from locals to locals.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"How's software localization done\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Software localization is a complex process. It includes various departments and processes.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"A business decision about localization includes an understanding of market conditions, cultural and sometimes political context.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"You'll need to develop the best possible strategy for the whole project and a \", _jsx(_components.a, {\n        href: \"/blog/localization-strategies/\",\n        children: \"localization strategy for every department\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Once that's solved, the focus goes to the product department.\"\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"Internationalization\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.img, {\n        src: \"../images/internationalize-software.png\",\n        alt: \"Internationalize software\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"It sounds like a paradox, but the first step to localization is actually the \", _jsx(_components.a, {\n        href: \"/blog/internationalization-vs-localization/\",\n        children: \"internationalization\"\n      }), \" of the product.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Internationalization is a part of the process that stands for the \", _jsx(_components.strong, {\n        children: \"separation of the source code from localizing elements\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Those localizing elements will depend from niche to niche, but it usually includes buttons, logins, payments, dates, etc.\"\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"Translation\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.img, {\n        src: \"../images/translate-all-elements.png\",\n        alt: \"Translate all elements\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Once you have the entering strategy, the budget, the time frame, and internationalized software, you're ready actually to do the translation part.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"You can choose to form a separate localization department for every language. Or you can hire a software localization service.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Either way, these should be the roles that participate in the \", _jsx(_components.a, {\n        href: \"/localization-workflow/\",\n        children: \"localization process\"\n      }), \":\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"1. \", _jsx(_components.strong, {\n        children: \"developer\"\n      }), \", preferably a localization engineer\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"2. \", _jsx(_components.strong, {\n        children: \"designer\"\n      }), \", preferably UX/UI specialist\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"3. \", _jsx(_components.a, {\n        href: \"/blog/localization-specialist/\",\n        children: _jsx(_components.strong, {\n          children: \"localization specialist\"\n        })\n      }), \", preferably native in both languages, or at least at a bilingual level.\\nIf you're localizing in multiple languages, be sure to hire a separate translator for every translation project.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"4. \", _jsx(_components.strong, {\n        children: \"an editor,\"\n      }), \" a native one. This one must be a native speaker from the country you're localizing to. Otherwise, real linguistic testing could happen after the launch and cause a lot of damage to adoption.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"5. Unite them all with a good \", _jsxs(_components.a, {\n        href: \"/blog/localization-manager-understanding-the-role/\",\n        children: [\"localization \", _jsx(_components.strong, {\n          children: \"project manager\"\n        })]\n      }), \" in one place - on the \", _jsx(_components.a, {\n        href: \"/blog/translation-management-system/\",\n        children: \"translation management system\"\n      }), \".\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Having all departments work on the \", _jsx(_components.a, {\n        href: \"/blog/translation-management-system/\",\n        children: \"translation management platform\"\n      }), \" will ease localization and meet everyone's needs.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"☞ \", _jsx(_components.strong, {\n        children: \"Developers\"\n      }), \" don't have a lot of manual work. They need to upload \", _jsx(_components.a, {\n        href: \"/supported-file-formats/\",\n        children: \"the resource file\"\n      }), \" with all information that needs to be translated.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"☞ \", _jsx(_components.strong, {\n        children: \"The project manager\"\n      }), \" assigns strings to translators. They can add translators they found by themselves or \", _jsx(_components.a, {\n        href: \"/professional-translation-services/\",\n        children: \"hire translation services directly\"\n      }), \" on the platform.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"☞ \", _jsx(_components.strong, {\n        children: \"Localization specialists\"\n      }), \" will be able to see how translation looks \", _jsx(_components.a, {\n        href: \"/flutter-in-context-editing/?tab=using-flutter-intl\",\n        children: \"directly in the design\"\n      }), \". They could get some help from \", _jsx(_components.a, {\n        href: \"/machine-translation/\",\n        children: \"machine translation\"\n      }), \" if there's a lot of material for bulk translation. Also, they'll have useful features like \", _jsx(_components.a, {\n        href: \"/translation-memory/\",\n        children: \"translation memory\"\n      }), \" that can help them go through every translation project faster.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"☞ \", _jsx(_components.strong, {\n        children: \"Designers\"\n      }), \" will see what the current design looks like with translated content.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"This means everything will go faster.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"All sides can adapt and work towards the best possible user interface and user experience inside the software product.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Once everyone is done with their work, a developer can download the localization file that's updated with the translated text and pull it back to the app. No additional coding is needed.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Usually, there are native \", _jsx(_components.a, {\n        href: \"/gitlab-integration/\",\n        children: \"integrations with GitLab\"\n      }), \" and \", _jsx(_components.a, {\n        href: \"/github-integration/\",\n        children: \"GitHub\"\n      }), \", which can make the finishing touches of software localization even easier.\"]\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"Localization testing\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Don't forget to test localized software or app in-house, as well with the small portion of the local market, before releasing the product fully.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"When should you localize your software?\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.img, {\n        src: \"../images/plan-localization.png\",\n        alt: \"Plan localization\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"The time of software localization depends on the timing of market penetration, software launching, budgets, and people you're disposing of.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"These are some of the options that are connected to product development.\"\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"After the main software is launched\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"This one is, more or less, the only option for the already existing software.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"It can be costly, but it's a good practice for those who want a sustainable expansion - market by market.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"If the product is already launched and you're doing localization of the software or app localization afterward, pay special attention to design.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Use the localization tool to double-check if the user interface is damaged during the translation process before pulling the localization file into the app or software.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Often the target language is shorter or longer than the sourced one, which can cause many problems with the design.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Even if you're launching localized software afterward, you'll often have to go back to the \", _jsx(_components.a, {\n        href: \"/blog/multilingual-apps-figma/\",\n        children: \"design stage\"\n      }), \" and go through the product development process all over again, increasing costs.\"]\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"During the design and development stage\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"This is the most ideal option - running the localization project at the same time as we have the product in the design or development stage. However, this one is not always possible.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"You should have a budget prepared for simultaneous software development and software localization projects for every target language if you're doing an app development and mobile app localization as well, it's an additional budget overload.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Even if you use a localization tool and do the best project management, different languages will demand different changes and adaptations to the product be sure to hire enough people to handle localization software projects.\"\n    }), \"\\n\", _jsx(_components.h3, {\n      children: \"Continuous localization\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"If continuous integration, continuous delivery, and continuous deployment are what you swear by, this is the right approach for you.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"This approach takes the best from the previous two.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Every string is ready for translation and deployment before development goes to the next stage.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"IT ideally starts at the design stage and suits the best the teams that are constantly updating the software or mobile app or for the software localization services that have a fast pace with their clients.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Conclusion\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Software localization is a complex process of translation and adaptation of the product to a completely new market. It can be costly, but if it's done well, it can greatly impact the company's growth.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"If you're planning to do it, go through \", _jsx(_components.a, {\n        href: \"/blog/localization-strategies/\",\n        children: \"the localization strategies\"\n      }), \". \", _jsx(_components.a, {\n        href: \"https://app.localizely.com/register\",\n        children: \"Use a translation management system\"\n      }), \", and hire people who'll be eager to take an additional step to understand the local audience.\"]\n    })]\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n",
+                "frontmatter": {},
+                "scope": {}
+            },
+            "headers": [
+                {
+                    "id": "everything-you-need-to-know-about-software-localization",
+                    "header": "h1",
+                    "content": "Everything you need to know about software localization"
+                },
+                {
+                    "id": "why-is-software-localization-important",
+                    "header": "h2",
+                    "content": "Why is software localization important?"
+                },
+                {
+                    "id": "what-exactly-is-a-software-localization",
+                    "header": "h2",
+                    "content": "What exactly is a software localization"
+                },
+                {
+                    "id": "software-localization-examples",
+                    "header": "h2",
+                    "content": "Software localization examples"
+                },
+                {
+                    "id": "netflix",
+                    "header": "h3",
+                    "content": "Netflix"
+                },
+                {
+                    "id": "spotify",
+                    "header": "h3",
+                    "content": "Spotify"
+                },
+                {
+                    "id": "hows-software-localization-done",
+                    "header": "h2",
+                    "content": "How's software localization done"
+                },
+                {
+                    "id": "internationalization",
+                    "header": "h3",
+                    "content": "Internationalization"
+                },
+                {
+                    "id": "translation",
+                    "header": "h3",
+                    "content": "Translation"
+                },
+                {
+                    "id": "localization-testing",
+                    "header": "h3",
+                    "content": "Localization testing"
+                },
+                {
+                    "id": "when-should-you-localize-your-software",
+                    "header": "h2",
+                    "content": "When should you localize your software?"
+                },
+                {
+                    "id": "after-the-main-software-is-launched",
+                    "header": "h3",
+                    "content": "After the main software is launched"
+                },
+                {
+                    "id": "during-the-design-and-development-stage",
+                    "header": "h3",
+                    "content": "During the design and development stage"
+                },
+                {
+                    "id": "continuous-localization",
+                    "header": "h3",
+                    "content": "Continuous localization"
+                },
+                {
+                    "id": "conclusion",
+                    "header": "h2",
+                    "content": "Conclusion"
+                }
+            ],
+            "tabs": [],
+            "readTime": 8
+        },
+        "relatedPosts": [
+            {
+                "title": "How to translate WordPress website into multiple languages",
+                "date": "2025-06-11",
+                "meta": {
+                    "title": "How to translate WordPress website into multiple languages",
+                    "description": "Learn how to translate your WordPress website into multiple languages easily using Polylang, one of the most popular free WordPress translation plugins.",
+                    "image": {
+                        "path": "../images/translate-wordpress-website-into-multiple-languages-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "How to translate WordPress website into multiple languages"
+                    }
+                },
+                "slug": "translate-wordpress-website-into-multiple-languages",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "How to translate Excel files for software localization",
+                "date": "2025-04-23",
+                "meta": {
+                    "title": "How to translate Excel files for software localization",
+                    "description": "Discover the best ways to translate Excel files for software localization. Improve accuracy and productivity with expert tips and tools.",
+                    "image": {
+                        "path": "../images/translate-excel-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "How to translate Excel files for software localization"
+                    }
+                },
+                "slug": "translate-excel-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Translate CSV files without headaches",
+                "date": "2025-04-22",
+                "meta": {
+                    "title": "Translate CSV files without headaches",
+                    "description": "Discover how to translate CSV files faster and more accurately for localization. Compare manual vs automated methods to streamline your workflow.",
+                    "image": {
+                        "path": "../images/translate-csv-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Translate CSV files without headaches"
+                    }
+                },
+                "slug": "translate-csv-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Translate Android XML smoothly and efficiently",
+                "date": "2025-04-14",
+                "meta": {
+                    "title": "Translate Android XML smoothly and efficiently",
+                    "description": "Learn how to translate Android XML files faster and more accurately for software localization. Compare manual vs automated translation methods.",
+                    "image": {
+                        "path": "../images/translate-android-xml-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Translate Android XML smoothly and efficiently"
+                    }
+                },
+                "slug": "translate-android-xml-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "The right way to translate Java properties files",
+                "date": "2025-04-11",
+                "meta": {
+                    "title": "The right way to translate Java properties files",
+                    "description": "Learn the best ways to translate Java Properties files for software localization. Boost efficiency and quality with proven methods and tools.",
+                    "image": {
+                        "path": "../images/translate-java-properties-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "The right way to translate Java properties files"
+                    }
+                },
+                "slug": "translate-java-properties-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Elevate localization efficiency with a dedicated YAML editor",
+                "date": "2024-10-28",
+                "meta": {
+                    "title": "Elevate localization efficiency with a dedicated YAML editor",
+                    "description": "Discover the power of efficient localization with a dedicated i18n YAML editor, tailored to simplify the editing workflow and accelerate the localization process.",
+                    "image": {
+                        "path": "../images/yaml-editor-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Elevate localization efficiency with a dedicated YAML editor"
+                    }
+                },
+                "slug": "yaml-editor",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Boost your localization with a dedicated JSON editor",
+                "date": "2024-10-25",
+                "meta": {
+                    "title": "Boost your localization with a dedicated JSON editor",
+                    "description": "Discover how using a dedicated i18n JSON editor can simplify editing and streamline the localization workflow for multilingual app development.",
+                    "image": {
+                        "path": "../images/json-editor-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Boost your localization with a dedicated JSON editor"
+                    }
+                },
+                "slug": "json-editor",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "A practical guide for efficient translation of YAML files",
+                "date": "2024-10-23",
+                "meta": {
+                    "title": "A practical guide for efficient translation of YAML files",
+                    "description": "Discover how to easily translate YAML files used in software localization. Explore different approaches and best practices that boost quality and efficiency.",
+                    "image": {
+                        "path": "../images/translate-yaml-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "A practical guide for efficient translation of YAML files"
+                    }
+                },
+                "slug": "translate-yaml-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "How to translate JSON files used in software localization",
+                "date": "2024-10-21",
+                "meta": {
+                    "title": "How to translate JSON files used in software localization",
+                    "description": "Learn how to translate JSON files used in software localization. Explore different approaches, specialized tools, and tips to enhance quality and save time.",
+                    "image": {
+                        "path": "../images/translate-json-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "How to translate JSON files used in software localization"
+                    }
+                },
+                "slug": "translate-json-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Translate RESX files without hassle",
+                "date": "2024-10-17",
+                "meta": {
+                    "title": "Translate RESX files without hassle",
+                    "description": "Learn more about translating RESX files, including common approaches and useful tools that can streamline the translation process, save time, and enhance quality.",
+                    "image": {
+                        "path": "../images/translate-resx-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Translate RESX files without hassle"
+                    }
+                },
+                "slug": "translate-resx-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Language vs Locale: Understanding the key differences for better software localization",
+                "date": "2024-08-27",
+                "meta": {
+                    "title": "Language vs Locale: Understanding the key differences for better software localization",
+                    "description": "Discover the crucial differences between language and locale, and learn how to effectively apply them in software localization for an enhanced user experience across diverse cultures and regions.",
+                    "image": {
+                        "path": "../images/language-vs-locale-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Language vs Locale: Understanding the key differences for better software localization"
+                    }
+                },
+                "slug": "language-vs-locale",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Flutter localization: step-by-step",
+                "date": "2024-08-20",
+                "meta": {
+                    "title": "Flutter localization: step-by-step - Localizely",
+                    "description": "Discover how to implement Flutter localization with our easy-to-follow guide that focuses on some of the most popular tools like gen-l10n and Flutter Intl.",
+                    "image": {
+                        "path": "../images/flutter-localization-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Flutter localization"
+                    }
+                },
+                "slug": "flutter-localization-step-by-step",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "Practical tips for seamless translation of Apple Strings files",
+                "date": "2024-03-04",
+                "meta": {
+                    "title": "Practical tips for seamless translation of Apple Strings files",
+                    "description": "Expand your knowledge on translating Apple Strings files, understand how to avoid common mistakes, and utilize strategies to boost your translation quality.",
+                    "image": {
+                        "path": "../images/translate-apple-strings-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Practical tips for seamless translation of Apple Strings files"
+                    }
+                },
+                "slug": "translate-apple-strings-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "How to translate ARB files efficiently",
+                "date": "2024-03-01",
+                "meta": {
+                    "title": "How to translate ARB files efficiently",
+                    "description": "Learn how to translate ARB files more efficiently. Discover techniques and tools that can speed up your translation process, save time, and improve quality.",
+                    "image": {
+                        "path": "../images/translate-arb-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "How to translate ARB files efficiently"
+                    }
+                },
+                "slug": "translate-arb-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Localization Statistics 2023",
+                "date": "2023-12-22",
+                "meta": {
+                    "title": "Localization Statistics 2023",
+                    "description": "Discover the latest trends, insights, and evolving practices in the software localization industry through our comprehensive Localization Statistics 2023 report.",
+                    "image": {
+                        "path": "../images/localization-statistics-2023-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Localization Statistics 2023"
+                    }
+                },
+                "slug": "localization-statistics-2023",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Simplify your XLIFF translation process",
+                "date": "2023-11-29",
+                "meta": {
+                    "title": "Simplify your XLIFF translation process",
+                    "description": "Learn how to simplify the translation of your XLIFF files with our easy-to-follow guide. Make your XLIFF translation process more efficient and reliable.",
+                    "image": {
+                        "path": "../images/translate-xliff-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Simplify your XLIFF translation process"
+                    }
+                },
+                "slug": "translate-xliff-files",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Translate PO files with ease",
+                "date": "2023-11-24",
+                "meta": {
+                    "title": "Translate PO files with ease",
+                    "description": "Master the art of PO file translation with our comprehensive guide. Discover how to avoid common pitfalls and apply techniques to enhance your translation work.",
+                    "image": {
+                        "path": "../images/translate-po-file-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Translate PO files with ease"
+                    }
+                },
+                "slug": "translate-po-file",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Multilingual fonts",
+                "date": "2023-11-16",
+                "meta": {
+                    "title": "Multilingual fonts",
+                    "description": "Learn more about multilingual fonts and their role in software localization when targeting global audiences. Discover the best multilingual fonts and much more.",
+                    "image": {
+                        "path": "../images/multilingual-fonts-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Multilingual fonts"
+                    }
+                },
+                "slug": "multilingual-fonts",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Multilingual CMS: Digital content for a global audience",
+                "date": "2023-08-31",
+                "meta": {
+                    "title": "Multilingual CMS: Digital content for a global audience",
+                    "description": "Learn more about multilingual content management systems, their advantages, and top choices for businesses that target global audiences.",
+                    "image": {
+                        "path": "../images/multilingual-content-management-system-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Multilingual CMS: Digital content for a global audience"
+                    }
+                },
+                "slug": "multilingual-content-management-system",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Multilingual website translation: More than just words",
+                "date": "2023-08-10",
+                "meta": {
+                    "title": "Multilingual website translation: More than just words",
+                    "description": "Deepen your understanding of multilingual website translation. Discover innovative tools and effective practices for seamless software localization.",
+                    "image": {
+                        "path": "../images/multilingual-website-translation-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Multilingual website translation: More than just words"
+                    }
+                },
+                "slug": "multilingual-website-translation",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Strings file editor - Easy editing of Apple Strings files",
+                "date": "2023-07-24",
+                "meta": {
+                    "title": "Strings file editor - Easy editing of Apple Strings files",
+                    "description": "Discover how Strings file editors can make your work error-free and efficient, and how you can use Localizely to streamline Apple Strings file editing.",
+                    "image": {
+                        "path": "../images/strings-editor-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Strings file editor - Easy editing of Apple Strings files"
+                    }
+                },
+                "slug": "strings-editor",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Quick and easy ARB file editing with an ARB file editor",
+                "date": "2023-07-21",
+                "meta": {
+                    "title": "Quick and easy ARB file editing with an ARB file editor",
+                    "description": "The ARB editor is an online tool that makes the process of editing and translating Flutter ARB files easier, aiming to optimize your workflow and increase overall productivity.",
+                    "image": {
+                        "path": "../images/arb-editor-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Quick and easy ARB file editing with an ARB file editor"
+                    }
+                },
+                "slug": "arb-editor",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "RESX Editor - An intuitive online editor for RESX files",
+                "date": "2023-07-19",
+                "meta": {
+                    "title": "RESX Editor - An intuitive online editor for RESX files",
+                    "description": "RESX editor is an intuitive online tool that streamlines the editing of RESX files, thereby improving your overall productivity.",
+                    "image": {
+                        "path": "../images/resx-editor-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "RESX Editor - An intuitive online editor for RESX files"
+                    }
+                },
+                "slug": "resx-editor",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Quick and easy PO file editing with online PO editor",
+                "date": "2023-07-17",
+                "meta": {
+                    "title": "Quick and easy PO file editing with online PO editor",
+                    "description": "The PO editor is an online tool that simplifies the editing of PO files. It comes with a multitude of great features that can significantly enhance your productivity and the overall quality of your work.",
+                    "image": {
+                        "path": "../images/po-editor-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Quick and easy PO file editing with online PO editor"
+                    }
+                },
+                "slug": "po-editor",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "5 multilingual website examples worth checking out",
+                "date": "2023-07-12",
+                "meta": {
+                    "title": "5 multilingual website examples worth checking out",
+                    "description": "Discover more about multilingual websites and see how existing examples can guide you through overcoming your obstacles. Learn from their successful strategies and avoid common pitfalls.",
+                    "image": {
+                        "path": "../images/multilingual-websites-examples-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "5 multilingual website examples worth checking out"
+                    }
+                },
+                "slug": "multilingual-websites-examples",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "CSS lang selector explained",
+                "date": "2023-06-22",
+                "meta": {
+                    "title": "CSS lang selector explained",
+                    "description": "Learn what the CSS :lang selector is, and discover how to use it on multilingual websites to adapt styles for different languages.",
+                    "image": {
+                        "path": "../images/css-lang-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "CSS lang selector explained"
+                    }
+                },
+                "slug": "css-lang",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "How to translate your website into Spanish",
+                "date": "2023-06-19",
+                "meta": {
+                    "title": "How to translate your website into Spanish",
+                    "description": "Translate your website or app into Spanish using Localizely. Increase your product quality and connect with your Spanish-speaking audience faster! Boost your global reach today.",
+                    "image": {
+                        "path": "../images/translate-website-to-spanish-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "How to translate your website into Spanish"
+                    }
+                },
+                "slug": "translate-website-to-spanish",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "How to translate your website into Arabic",
+                "date": "2023-06-15",
+                "meta": {
+                    "title": "How to translate your website into Arabic",
+                    "description": "Translate your website into Arabic quickly and flawlessly using the Localizely platform. Enhance your product quality and reach your customers faster!",
+                    "image": {
+                        "path": "../images/translate-website-to-arabic-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "How to translate your website into Arabic"
+                    }
+                },
+                "slug": "translate-website-to-arabic",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "XLIFF Editor - Quick and easy XLIFF file editing",
+                "date": "2023-06-13",
+                "meta": {
+                    "title": "XLIFF Editor - Quick and easy XLIFF file editing",
+                    "description": "The XLIFF editor is an online tool that streamlines the task of editing and translating XLIFF files, improving the way you work and your overall productivity.",
+                    "image": {
+                        "path": "../images/xliff-editor-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "XLIFF Editor - Quick and easy XLIFF file editing"
+                    }
+                },
+                "slug": "xliff-editor",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "All about hreflang: The key to effective SEO in multilingual websites",
+                "date": "2023-05-19",
+                "meta": {
+                    "title": "All about hreflang: The key to effective SEO in multilingual websites",
+                    "description": "Explore how hreflang tags can enhance the SEO of your multilingual website. Learn its importance, practical guidelines for use, common troubleshooting, and more in our detailed guide.",
+                    "image": {
+                        "path": "../images/hreflang-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "All about hreflang: The key to effective SEO in multilingual websites"
+                    }
+                },
+                "slug": "hreflang",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "Discovering the world of number localization",
+                "date": "2023-05-16",
+                "meta": {
+                    "title": "Discovering the world of number localization",
+                    "description": "Explore the world of number localization in this comprehensive guide. Learn about various number formats, regional variations, and best practices for implementing localization effectively in software development. Make your content accessible to a global audience!",
+                    "image": {
+                        "path": "../images/number-localization-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Discovering the world of number localization"
+                    }
+                },
+                "slug": "number-localization",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "A comprehensive guide about time zones for software developers",
+                "date": "2023-05-09",
+                "meta": {
+                    "title": "A comprehensive guide about time zones for software developers",
+                    "description": "Discover the importance of time zones in software development with this comprehensive guide, covering UTC, best practices, and common misconceptions. Master time-related challenges and enhance user experience across the globe.",
+                    "image": {
+                        "path": "../images/timezones-for-developers-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "A comprehensive guide about time zones for software developers"
+                    }
+                },
+                "slug": "timezones-for-developers",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "The role of Accept-Language header in software localization",
+                "date": "2023-05-05",
+                "meta": {
+                    "title": "The role of Accept-Language header in software localization",
+                    "description": "Discover the role of Accept-Language header in software localization and enhance your users' browsing experience with tailored content in their preferred languages.",
+                    "image": {
+                        "path": "../images/accept-language-header-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "The role of Accept-Language header in software localization"
+                    }
+                },
+                "slug": "accept-language-header",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "Streamline your design workflow with Figma translation plugin",
+                "date": "2023-05-04",
+                "meta": {
+                    "title": "Streamline your design workflow with Figma translation plugin",
+                    "description": "Discover the power of Localizely's Figma translation plugin to optimize your design workflow. Learn the importance of early localization planning, and create software products that cater to a global audience with ease and efficiency. Transform your design process today!",
+                    "image": {
+                        "path": "../images/figma-translation-plugin-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Streamline your design workflow with Figma translation plugin"
+                    }
+                },
+                "slug": "figma-translation-plugin",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Software development abbreviations: Exploring the world of numeronyms and their applications",
+                "date": "2023-04-27",
+                "meta": {
+                    "title": "Software development abbreviations: Exploring the world of numeronyms and their applications",
+                    "description": "Uncover the intriguing world of numeronyms used in software development and beyond. Decode their structure and learn how to effectively incorporate them into your industry-specific communications.",
+                    "image": {
+                        "path": "../images/software-development-abbreviations-numeronyms-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Software development abbreviations: Exploring the world of numeronyms and their applications"
+                    }
+                },
+                "slug": "software-development-abbreviations-numeronyms",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Guidelines for error handling and localization of error messages",
+                "date": "2023-04-24",
+                "meta": {
+                    "title": "Guidelines for error handling and localization of error messages",
+                    "description": "Discover best practices for crafting user-friendly error messages and localizing them for a global audience, enhancing your app's UX across cultures and languages.",
+                    "image": {
+                        "path": "../images/error-messages-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Guidelines for error handling and localization of error messages"
+                    }
+                },
+                "slug": "error-messages",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Navigating the world of translation: In-house, agencies, and freelancers",
+                "date": "2023-04-07",
+                "meta": {
+                    "title": "Navigating the world of translation: In-house, agencies, and freelancers - A comprehensive guide",
+                    "description": "Discover the key differences between in-house translators, translation agencies, and freelance translators. Learn how to make the right choice for your business with our comprehensive guide, tips, and best practices.",
+                    "image": {
+                        "path": "../images/navigating-the-world-of-translation-in-house-agencies-and-freelancers-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Navigating the world of translation: In-house, agencies, and freelancers"
+                    }
+                },
+                "slug": "navigating-the-world-of-translation-in-house-agencies-and-freelancers",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Designing an effective language selector: Best practices and examples",
+                "date": "2023-04-05",
+                "meta": {
+                    "title": "Designing an effective language selector: Best practices and examples",
+                    "description": "Discover the importance of designing an effective language selector for your website or app, learn about best practices, and explore real-life examples to enhance user experience and cater to a global audience.",
+                    "image": {
+                        "path": "../images/designing-an-effective-language-selector-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Designing an effective language selector"
+                    }
+                },
+                "slug": "designing-an-effective-language-selector",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Top 14 Figma plugins for designing apps",
+                "date": "2023-02-20",
+                "meta": {
+                    "title": "Top 14 Figma plugins for designing apps",
+                    "description": "Best Figma plugins are easy to incorporate into the workflow, saving you a ton of time and making you more efficient.",
+                    "image": {
+                        "path": "../images/figma-plugins-for-designing-apps-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Top 14 Figma plugins for designing apps"
+                    }
+                },
+                "slug": "figma-plugins-for-designing-apps",
+                "categories": [
+                    "localization",
+                    "management"
+                ]
+            },
+            {
+                "title": "JavaScript Intl API: Understanding the Basics and Beyond",
+                "date": "2023-02-09",
+                "meta": {
+                    "title": "JavaScript Intl API: Understanding the Basics and Beyond",
+                    "description": "Get a comprehensive understanding of the JavaScript Intl API. This guide covers both basic and advanced topics, helping software developers and tech-savvy individuals fully understand and implement the API in web applications.",
+                    "image": {
+                        "path": "../images/javascript-intl-api-understanding-the-basics-and-beyond-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "JavaScript Intl API: Understanding the Basics and Beyond"
+                    }
+                },
+                "slug": "javascript-intl-api",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "Detecting navigator language",
+                "date": "2023-02-06",
+                "meta": {
+                    "title": "Detecting navigator language",
+                    "description": "Explore the advantages of using browser language detection for website localization. Enhance user experience, boost engagement and conversion, and improve SEO with our in-depth blog post.",
+                    "image": {
+                        "path": "../images/detecting-navigator-language-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Detecting navigator language"
+                    }
+                },
+                "slug": "detecting-navigator-language",
+                "categories": [
+                    "localization",
+                    "coding"
+                ]
+            },
+            {
+                "title": "Localization state survey 2022",
+                "date": "2023-01-16",
+                "meta": {
+                    "title": "Localization state survey 2022",
+                    "description": "Localizely conducted research about the state of localization for 2022 on respondents of various occupations from all over the world.",
+                    "image": {
+                        "path": "../images/localization-state-survey-2022-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Localization state survey 2022"
+                    }
+                },
+                "slug": "localization-state-survey-2022",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Localization project manager: understanding the role",
+                "date": "2023-01-13",
+                "meta": {
+                    "title": "Localization project manager: understanding the role",
+                    "description": "The localization project manager is a determining role in the localization department. They overlook workflow and manage deliverables, deadlines, and budgets.",
+                    "image": {
+                        "path": "../images/localization-manager-og.png",
+                        "width": 1200,
+                        "height": 630,
+                        "type": "image/png",
+                        "alt": "Localization manager role in business, and tools they need"
+                    }
+                },
+                "slug": "localization-manager-understanding-the-role",
+                "categories": [
+                    "localization",
+                    "management"
+                ]
+            },
+            {
+                "title": "Translation quality assessment guide",
+                "date": "2023-01-12",
+                "meta": {
+                    "title": "Translation quality assessment guide",
+                    "description": "Translation quality requires a multidimensional approach: defined quality standards and quality assurance procedures. It influences conversion directly.",
+                    "image": {
+                        "path": "../images/translation-quality-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Translation quality assessment guide"
+                    }
+                },
+                "slug": "translation-quality-assessment-guide",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Content localization: everything you need to know",
+                "date": "2022-12-08",
+                "meta": {
+                    "title": "Content localization: everything you need to know",
+                    "description": "Content localization is a process of adaptation of existing marketing materials to new markets. Usually, it's done through translation, but it can also include new material curation.",
+                    "image": {
+                        "path": "../images/content-localization-og.png",
+                        "width": 1200,
+                        "height": 630,
+                        "type": "image/png",
+                        "alt": "Content localization"
+                    }
+                },
+                "slug": "content-localization",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Improve the UI design of multilingual apps with Figma",
+                "date": "2022-11-10",
+                "meta": {
+                    "title": "Improve the UI design of multilingual apps with Figma",
+                    "description": "Interface design became one of the most important stages of development. Whether working on software, a mobile application, or a website, you should prioritize the user experience when designing and doing the copy.",
+                    "image": {
+                        "path": "../images/multilingual-apps-figma-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "UX/UI design for multilanguage apps"
+                    }
+                },
+                "slug": "multilingual-apps-figma",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Localization specialist: understanding the role",
+                "date": "2022-10-21",
+                "meta": {
+                    "title": "Localization specialist: understanding the role",
+                    "description": "Localization specialist is a translator who specializes in a particular niche in the localization industry, sometimes even with a developer's background.",
+                    "image": {
+                        "path": "../images/localization-specialist-og.png",
+                        "width": 1200,
+                        "height": 630,
+                        "type": "image/png",
+                        "alt": "Localization specialist - understanding the role"
+                    }
+                },
+                "slug": "localization-specialist",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "What is language localization of the website and how to do it correctly",
+                "date": "2022-10-13",
+                "meta": {
+                    "title": "What is language localization of the website and how to do it correctly",
+                    "description": "The simple guide for website language localization.",
+                    "image": {
+                        "path": "../images/website-language-localization-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "What is language localization of the website and how to do it correctly"
+                    }
+                },
+                "slug": "website-localization",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "A structured guide to localization strategies",
+                "date": "2022-08-25",
+                "meta": {
+                    "title": "A structured guide to localization strategies",
+                    "description": "Use this structured guide to localization strategies to thrive with your software localization.",
+                    "image": {
+                        "path": "../images/localization-strategies-og.png",
+                        "width": 1200,
+                        "height": 630,
+                        "type": "image/png",
+                        "alt": "A structured guide to localization strategies"
+                    }
+                },
+                "slug": "localization-strategies",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "What are translation management systems, and how you can use them",
+                "date": "2022-07-29",
+                "meta": {
+                    "title": "What are translation management systems, and how you can use them",
+                    "description": "Learn what are translation management systems and how you can use them to organize your translation projects and improve delivery.",
+                    "image": {
+                        "path": "../images/translation-management-system-og.png",
+                        "width": 1200,
+                        "height": 630,
+                        "type": "image/png",
+                        "alt": "Translation management system"
+                    }
+                },
+                "slug": "translation-management-system",
+                "categories": [
+                    "localization",
+                    "management",
+                    "translation"
+                ]
+            },
+            {
+                "title": "Internationalization (i18n) vs Localization (l10n) - What is the difference?",
+                "date": "2022-03-24",
+                "meta": {
+                    "title": "Internationalization (i18n) vs Localization (l10n) - What is the difference?",
+                    "description": "The internationalization and localization are complementary processes, that needs to be implemented from the day one of product development",
+                    "image": {
+                        "path": "../images/internationalization-vs-localization-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Internationalization (i18n) vs Localization (l10n)"
+                    }
+                },
+                "slug": "internationalization-vs-localization",
+                "categories": [
+                    "localization"
+                ]
+            },
+            {
+                "title": "Quick Guide to ICU Message Format",
+                "date": "2021-01-31",
+                "meta": {
+                    "title": "Quick Guide to ICU Message Format - Localizely",
+                    "description": "This article explains what is ICU message format, why it exists and how too use ICU message for text formatting.",
+                    "image": {
+                        "path": "../images/quick-guide-to-icu-message-format-og.png",
+                        "width": 1200,
+                        "height": 628,
+                        "type": "image/png",
+                        "alt": "Quick Guide to ICU Message Format"
+                    }
+                },
+                "slug": "quick-guide-to-icu-message-format",
+                "categories": [
+                    "localization",
+                    "coding",
+                    "translation"
+                ]
+            }
+        ]
+    },
+    "__N_SSG": true
+}
